@@ -1,0 +1,98 @@
+body{
+	background-color: #99ff99;
+}
+nav .foot{
+	background-color: yellow;
+	padding:20px;
+	text-align:center;
+
+}
+nav p{
+	font-size: 20px;
+	color:red;
+}
+nav img{
+	border-radius:10px;
+	width:500px;
+	height:auto;
+	
+}
+nav h1{
+   background-color: #5995DA;
+   color:#fff;
+   padding:3px;
+   font-size: 30px;
+
+}
+nav .section {
+	display:flex;
+	flex-direction: row; 
+	color:blue;
+}
+nav .section p{
+	width:50%;
+	color:brown;
+	padding-right:5px;
+	font-size: 30px;
+}
+nav .section #recipe{
+	width:30%;
+	height:auto;
+	display: block;
+	background-color: lightyellow;
+	border-radius: 10px;
+	padding:20px;
+}
+nav .section .ingrediants{
+	margin-right: 20px;
+	font-size: 20px;
+}
+@media screen and (min-width: 751px){
+nav .links{
+	color:red;
+	font-size: 20px;
+}
+}
+@media screen and (max-width: 400px) {
+  nav p {
+       color:yellow;
+       font-size: 20px;
+  }
+  nav .section{
+  	display:flex;
+  	flex-direction: column;
+  	size:20px;
+
+  }
+  nav .links{
+	color:red;
+	font-size: 10px;
+}
+}
+@media screen and (max-width: 750px) and (min-width: 401px){
+  nav p {
+       color:green;
+       font-size: 25px;
+       flex-direction: column;
+       margin-left: 20px;
+       margin-right: 20px;
+  }
+  nav .section{
+  	display:flex;
+  	flex-direction: column;
+
+  }
+  nav .links{
+	color:violet;
+	font-size: 10px;
+}
+nav .section #recipe{
+	width:60%;
+	height:auto;
+	display: block;
+	background-color: yellow;
+	border-radius: 10px;
+	padding:20px;
+	size: fixed;
+}
+}
